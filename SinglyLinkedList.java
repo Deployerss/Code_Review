@@ -3,15 +3,6 @@ import java.util.*;
 public class SinglyLinkedList{
     
     Node head;
-    
-    static class Node{
-        int data;
-        Node next;
-        Node(int x){
-            this.data=x;
-            this.next=null;
-        }
-    }
 
     //This method inserts at First position of Singly linked list
     void insertFirst(int data){
